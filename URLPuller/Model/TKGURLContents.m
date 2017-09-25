@@ -10,4 +10,15 @@
 
 @implementation TKGURLContents
 
+- (instancetype)initWithEndPointURL:(NSURL *)endPointURL
+{
+    self = [super init];
+    
+    if (self) {
+        _endPointURL = [endPointURL copy];
+    }
+    
+    return self;
+}
+
 @end
