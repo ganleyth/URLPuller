@@ -8,24 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		18CA6F1E1F796375005123EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F1D1F796375005123EA /* AppDelegate.m */; };
-		18CA6F211F796375005123EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F201F796375005123EA /* ViewController.m */; };
 		18CA6F241F796375005123EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA6F221F796375005123EA /* Main.storyboard */; };
 		18CA6F261F796375005123EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CA6F251F796375005123EA /* Assets.xcassets */; };
 		18CA6F291F796375005123EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA6F271F796375005123EA /* LaunchScreen.storyboard */; };
 		18CA6F2C1F796375005123EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F2B1F796375005123EA /* main.m */; };
+		18CA6F3A1F796C00005123EA /* TKGFetchURLContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F391F796C00005123EA /* TKGFetchURLContentsViewController.m */; };
+		18CA6F3D1F796C26005123EA /* TKGURLContentsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F3C1F796C26005123EA /* TKGURLContentsListViewController.m */; };
+		18CA6F431F796C91005123EA /* TKGURLContents.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F421F796C91005123EA /* TKGURLContents.m */; };
+		18CA6F461F796CA8005123EA /* TKGURLContentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F451F796CA8005123EA /* TKGURLContentsController.m */; };
+		18CA6F491F796CEC005123EA /* TKGURLPuller.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F481F796CEC005123EA /* TKGURLPuller.m */; };
+		18CA6F4D1F796DEC005123EA /* TKGActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F4C1F796DEC005123EA /* TKGActivityIndicator.m */; };
+		18CA6F511F796F6D005123EA /* TKGURLContentsListDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F501F796F6D005123EA /* TKGURLContentsListDataProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18CA6F191F796375005123EA /* URLPuller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLPuller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CA6F1C1F796375005123EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18CA6F1D1F796375005123EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18CA6F1F1F796375005123EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18CA6F201F796375005123EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18CA6F231F796375005123EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18CA6F251F796375005123EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CA6F281F796375005123EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CA6F2A1F796375005123EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CA6F2B1F796375005123EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CA6F381F796C00005123EA /* TKGFetchURLContentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGFetchURLContentsViewController.h; sourceTree = "<group>"; };
+		18CA6F391F796C00005123EA /* TKGFetchURLContentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGFetchURLContentsViewController.m; sourceTree = "<group>"; };
+		18CA6F3B1F796C26005123EA /* TKGURLContentsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGURLContentsListViewController.h; sourceTree = "<group>"; };
+		18CA6F3C1F796C26005123EA /* TKGURLContentsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGURLContentsListViewController.m; sourceTree = "<group>"; };
+		18CA6F411F796C91005123EA /* TKGURLContents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGURLContents.h; sourceTree = "<group>"; };
+		18CA6F421F796C91005123EA /* TKGURLContents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGURLContents.m; sourceTree = "<group>"; };
+		18CA6F441F796CA8005123EA /* TKGURLContentsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGURLContentsController.h; sourceTree = "<group>"; };
+		18CA6F451F796CA8005123EA /* TKGURLContentsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGURLContentsController.m; sourceTree = "<group>"; };
+		18CA6F471F796CEC005123EA /* TKGURLPuller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGURLPuller.h; sourceTree = "<group>"; };
+		18CA6F481F796CEC005123EA /* TKGURLPuller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGURLPuller.m; sourceTree = "<group>"; };
+		18CA6F4B1F796DEC005123EA /* TKGActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGActivityIndicator.h; sourceTree = "<group>"; };
+		18CA6F4C1F796DEC005123EA /* TKGActivityIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGActivityIndicator.m; sourceTree = "<group>"; };
+		18CA6F4F1F796F6D005123EA /* TKGURLContentsListDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGURLContentsListDataProvider.h; sourceTree = "<group>"; };
+		18CA6F501F796F6D005123EA /* TKGURLContentsListDataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGURLContentsListDataProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +76,13 @@
 		18CA6F1B1F796375005123EA /* URLPuller */ = {
 			isa = PBXGroup;
 			children = (
+				18CA6F331F7965D2005123EA /* Storyboards */,
+				18CA6F4A1F796DCF005123EA /* View */,
 				18CA6F351F7965E7005123EA /* Model */,
 				18CA6F321F7965B4005123EA /* ViewController */,
+				18CA6F4E1F796F22005123EA /* DataProviders */,
 				18CA6F361F7965ED005123EA /* ModelController */,
 				18CA6F371F7965F2005123EA /* SupportControllers */,
-				18CA6F331F7965D2005123EA /* Storyboards */,
 				18CA6F341F7965E0005123EA /* Resources */,
 			);
 			path = URLPuller;
@@ -71,8 +91,10 @@
 		18CA6F321F7965B4005123EA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				18CA6F1F1F796375005123EA /* ViewController.h */,
-				18CA6F201F796375005123EA /* ViewController.m */,
+				18CA6F381F796C00005123EA /* TKGFetchURLContentsViewController.h */,
+				18CA6F391F796C00005123EA /* TKGFetchURLContentsViewController.m */,
+				18CA6F3B1F796C26005123EA /* TKGURLContentsListViewController.h */,
+				18CA6F3C1F796C26005123EA /* TKGURLContentsListViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -101,6 +123,8 @@
 		18CA6F351F7965E7005123EA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18CA6F411F796C91005123EA /* TKGURLContents.h */,
+				18CA6F421F796C91005123EA /* TKGURLContents.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -108,6 +132,8 @@
 		18CA6F361F7965ED005123EA /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				18CA6F441F796CA8005123EA /* TKGURLContentsController.h */,
+				18CA6F451F796CA8005123EA /* TKGURLContentsController.m */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -115,8 +141,28 @@
 		18CA6F371F7965F2005123EA /* SupportControllers */ = {
 			isa = PBXGroup;
 			children = (
+				18CA6F471F796CEC005123EA /* TKGURLPuller.h */,
+				18CA6F481F796CEC005123EA /* TKGURLPuller.m */,
 			);
 			path = SupportControllers;
+			sourceTree = "<group>";
+		};
+		18CA6F4A1F796DCF005123EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18CA6F4B1F796DEC005123EA /* TKGActivityIndicator.h */,
+				18CA6F4C1F796DEC005123EA /* TKGActivityIndicator.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18CA6F4E1F796F22005123EA /* DataProviders */ = {
+			isa = PBXGroup;
+			children = (
+				18CA6F4F1F796F6D005123EA /* TKGURLContentsListDataProvider.h */,
+				18CA6F501F796F6D005123EA /* TKGURLContentsListDataProvider.m */,
+			);
+			path = DataProviders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,9 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CA6F211F796375005123EA /* ViewController.m in Sources */,
 				18CA6F2C1F796375005123EA /* main.m in Sources */,
+				18CA6F511F796F6D005123EA /* TKGURLContentsListDataProvider.m in Sources */,
+				18CA6F4D1F796DEC005123EA /* TKGActivityIndicator.m in Sources */,
 				18CA6F1E1F796375005123EA /* AppDelegate.m in Sources */,
+				18CA6F491F796CEC005123EA /* TKGURLPuller.m in Sources */,
+				18CA6F431F796C91005123EA /* TKGURLContents.m in Sources */,
+				18CA6F3A1F796C00005123EA /* TKGFetchURLContentsViewController.m in Sources */,
+				18CA6F461F796CA8005123EA /* TKGURLContentsController.m in Sources */,
+				18CA6F3D1F796C26005123EA /* TKGURLContentsListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
