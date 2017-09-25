@@ -27,10 +27,11 @@
     return sharedInstance;
 }
 
-- (void) addURLContentsObjectWithEndPointURL:(NSURL *)endPointURL
+- (TKGURLContents *) addURLContentsObjectWithEndPointURL:(NSURL *)endPointURL
 {
     TKGURLContents *urlContents = [[TKGURLContents alloc] initWithEndPointURL:endPointURL];
     [self.internalURLContentsObjects addObject:urlContents];
+    return urlContents;
 }
 
 - (void) updateURLContents:(TKGURLContents *)urlContents withData:(NSData *)data
