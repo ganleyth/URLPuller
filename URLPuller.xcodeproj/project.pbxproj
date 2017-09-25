@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1894DA6D1F79726000E2304E /* TKGMockData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894DA6C1F79726000E2304E /* TKGMockData.m */; };
+		1894DA701F7982A500E2304E /* TKGNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894DA6F1F7982A500E2304E /* TKGNetworkClient.m */; };
 		18CA6F1E1F796375005123EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F1D1F796375005123EA /* AppDelegate.m */; };
 		18CA6F241F796375005123EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA6F221F796375005123EA /* Main.storyboard */; };
 		18CA6F261F796375005123EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CA6F251F796375005123EA /* Assets.xcassets */; };
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		1894DA6B1F79726000E2304E /* TKGMockData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGMockData.h; sourceTree = "<group>"; };
 		1894DA6C1F79726000E2304E /* TKGMockData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGMockData.m; sourceTree = "<group>"; };
+		1894DA6E1F7982A500E2304E /* TKGNetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGNetworkClient.h; sourceTree = "<group>"; };
+		1894DA6F1F7982A500E2304E /* TKGNetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGNetworkClient.m; sourceTree = "<group>"; };
 		18CA6F191F796375005123EA /* URLPuller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLPuller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CA6F1C1F796375005123EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18CA6F1D1F796375005123EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 			children = (
 				18CA6F471F796CEC005123EA /* TKGURLPuller.h */,
 				18CA6F481F796CEC005123EA /* TKGURLPuller.m */,
+				1894DA6E1F7982A500E2304E /* TKGNetworkClient.h */,
+				1894DA6F1F7982A500E2304E /* TKGNetworkClient.m */,
 			);
 			path = SupportControllers;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 			files = (
 				18CA6F2C1F796375005123EA /* main.m in Sources */,
 				18CA6F511F796F6D005123EA /* TKGURLContentsListDataProvider.m in Sources */,
+				1894DA701F7982A500E2304E /* TKGNetworkClient.m in Sources */,
 				18CA6F4D1F796DEC005123EA /* TKGActivityIndicator.m in Sources */,
 				18CA6F1E1F796375005123EA /* AppDelegate.m in Sources */,
 				18CA6F491F796CEC005123EA /* TKGURLPuller.m in Sources */,

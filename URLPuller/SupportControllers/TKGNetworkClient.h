@@ -1,5 +1,5 @@
 //
-//  TKGMockData.h
+//  TKGNetworkClient.h
 //  URLPuller
 //
 //  Created by Thomas Ganley on 9/25/17.
@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TKGMockData : NSObject
+@interface TKGNetworkClient : NSObject
 
-+ (NSArray *) mockURLs;
++ (void) performDataTaskForURL:(NSURL *)url withCompletion:(void (^)(NSData*, NSError*))completion;
 
 @end

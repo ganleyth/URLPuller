@@ -10,7 +10,7 @@
 
 @implementation TKGMockData
 
-+ (NSArray *)mockURLs
++ (NSArray *) mockURLs
 {
     return [[NSArray alloc] initWithObjects:@"", @"", @"", nil];
 }

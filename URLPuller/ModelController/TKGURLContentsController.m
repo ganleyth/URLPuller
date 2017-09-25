@@ -27,23 +27,23 @@
     return sharedInstance;
 }
 
-- (void)addURLContentsObjectWithEndPointURL:(NSURL *)endPointURL
+- (void) addURLContentsObjectWithEndPointURL:(NSURL *)endPointURL
 {
     TKGURLContents *urlContents = [[TKGURLContents alloc] initWithEndPointURL:endPointURL];
     [self.internalURLContentsObjects addObject:urlContents];
 }
 
-- (void)updateURLContents:(TKGURLContents *)urlContents withData:(NSData *)data
+- (void) updateURLContents:(TKGURLContents *)urlContents withData:(NSData *)data
 {
     [urlContents setURLContentsData:data];
 }
 
-- (void)updateURLContents:(TKGURLContents *)urlContents withLocalStorageURL:(NSURL *)localStorageURL
+- (void) updateURLContents:(TKGURLContents *)urlContents withLocalStorageURL:(NSURL *)localStorageURL
 {
     [urlContents setLocalStorageURL:localStorageURL];
 }
 
-- (NSArray *)urlContentsObjects
+- (NSArray *) urlContentsObjects
 {
     return self.internalURLContentsObjects;
 }

@@ -10,4 +10,8 @@
 
 @interface TKGURLPuller : NSObject
 
+- (void) downloadURLsAsync: (NSArray *)urls;
+- (void) waitUntilAllDownloadsFinish;
+- (NSString *) downloadedPathForURL:(NSURL *)url;
+
 @end

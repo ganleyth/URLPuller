@@ -10,7 +10,7 @@
 
 @implementation TKGURLContents
 
-- (instancetype)initWithEndPointURL:(NSURL *)endPointURL
+- (instancetype) initWithEndPointURL:(NSURL *)endPointURL
 {
     self = [super init];
     

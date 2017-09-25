@@ -10,7 +10,7 @@
 
 @interface TKGURLContents : NSObject
 
-- (instancetype)initWithEndPointURL:(NSURL *)endPointURL;
+- (instancetype) initWithEndPointURL:(NSURL *)endPointURL;
 
 @property (nonatomic, copy, readonly) NSURL *endPointURL;
 @property (nonatomic) NSData *URLContentsData;

@@ -13,9 +13,9 @@
 
 + (TKGURLContentsController *)sharedInstance;
 
-- (void)addURLContentsObjectWithEndPointURL:(NSURL *)endPointURL;
-- (void)updateURLContents:(TKGURLContents *)urlContents withData:(NSData *)data;
-- (void)updateURLContents:(TKGURLContents *)urlContents withLocalStorageURL:(NSURL *)localStorageURL;
-- (NSArray *)urlContentsObjects;
+- (void) addURLContentsObjectWithEndPointURL:(NSURL *)endPointURL;
+- (void) updateURLContents:(TKGURLContents *)urlContents withData:(NSData *)data;
+- (void) updateURLContents:(TKGURLContents *)urlContents withLocalStorageURL:(NSURL *)localStorageURL;
+- (NSArray *) urlContentsObjects;
 
 @end
