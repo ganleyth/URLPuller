@@ -10,6 +10,6 @@
 
 @interface TKGMockData : NSObject
 
-- (NSArray *)mockURLs;
++ (NSArray *)mockURLs;
 
 @end

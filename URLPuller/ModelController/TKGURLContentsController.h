@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+@class TKGURLContents;
 
 @interface TKGURLContentsController : NSObject
+
++ (TKGURLContentsController *)sharedInstance;
+
+- (void)addURLContentsObjectWithEndPointURL:(NSURL *)endPointURL;
+- (void)updateURLContents:(TKGURLContents *)urlContents withData:(NSData *)data;
+- (void)updateURLContents:(TKGURLContents *)urlContents withLocalStorageURL:(NSURL *)localStorageURL;
+- (NSArray *)urlContentsObjects;
 
 @end
