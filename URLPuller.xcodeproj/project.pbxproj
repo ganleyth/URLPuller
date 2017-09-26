@@ -22,7 +22,7 @@
 		18CA6F491F796CEC005123EA /* TKGURLPuller.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F481F796CEC005123EA /* TKGURLPuller.m */; };
 		18CA6F4D1F796DEC005123EA /* TKGActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F4C1F796DEC005123EA /* TKGActivityIndicator.m */; };
 		18CA6F511F796F6D005123EA /* TKGURLContentsListDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F501F796F6D005123EA /* TKGURLContentsListDataProvider.m */; };
-		18EFB49B1F79B3750003AB19 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EFB49A1F79B3750003AB19 /* Default-568h@2x.png */; };
+		18EFB49C1F79C6E40003AB19 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18CA6F2A1F796375005123EA /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +54,6 @@
 		18CA6F4C1F796DEC005123EA /* TKGActivityIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGActivityIndicator.m; sourceTree = "<group>"; };
 		18CA6F4F1F796F6D005123EA /* TKGURLContentsListDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGURLContentsListDataProvider.h; sourceTree = "<group>"; };
 		18CA6F501F796F6D005123EA /* TKGURLContentsListDataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGURLContentsListDataProvider.m; sourceTree = "<group>"; };
-		18EFB49A1F79B3750003AB19 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +70,6 @@
 		18CA6F101F796375005123EA = {
 			isa = PBXGroup;
 			children = (
-				18EFB49A1F79B3750003AB19 /* Default-568h@2x.png */,
 				18CA6F1B1F796375005123EA /* URLPuller */,
 				18CA6F1A1F796375005123EA /* Products */,
 			);
@@ -96,6 +94,7 @@
 				18CA6F361F7965ED005123EA /* ModelController */,
 				18CA6F371F7965F2005123EA /* SupportControllers */,
 				18CA6F341F7965E0005123EA /* Resources */,
+				18CA6F2A1F796375005123EA /* Info.plist */,
 			);
 			path = URLPuller;
 			sourceTree = "<group>";
@@ -126,7 +125,6 @@
 				18CA6F251F796375005123EA /* Assets.xcassets */,
 				18CA6F1C1F796375005123EA /* AppDelegate.h */,
 				18CA6F1D1F796375005123EA /* AppDelegate.m */,
-				18CA6F2A1F796375005123EA /* Info.plist */,
 				18CA6F2B1F796375005123EA /* main.m */,
 			);
 			path = Resources;
@@ -241,8 +239,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EFB49C1F79C6E40003AB19 /* Info.plist in Resources */,
 				18CA6F291F796375005123EA /* LaunchScreen.storyboard in Resources */,
-				18EFB49B1F79B3750003AB19 /* Default-568h@2x.png in Resources */,
 				18CA6F261F796375005123EA /* Assets.xcassets in Resources */,
 				18CA6F241F796375005123EA /* Main.storyboard in Resources */,
 			);

@@ -10,4 +10,7 @@
 
 @interface TKGActivityIndicator : UIView
 
+- (void) startActivityIndicator;
+- (void) stopActivityIndicator;
+
 @end

@@ -40,7 +40,6 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="View Results"/>
                                 <connections>
-                                    <action selector="viewResultsButtonTapped:" destination="sqJ-xE-mN0" eventType="touchUpInside" id="mJR-WX-fsa"/>
                                     <segue destination="6yc-co-692" kind="show" identifier="showURLContentsResults" id="g9z-aE-vK5"/>
                                 </connections>
                             </button>
@@ -58,6 +57,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Fetch URL Contents" id="tDg-7u-bwV"/>
                     <connections>
+                        <outlet property="fetchURLContentsButton" destination="tZq-T0-3pi" id="F2T-lb-3fO"/>
                         <outlet property="viewResultsButton" destination="Lf2-Bm-aSM" id="DEh-X6-PYg"/>
                     </connections>
                 </viewController>

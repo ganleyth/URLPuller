@@ -17,5 +17,6 @@
 - (void) updateURLContents:(TKGURLContents *)urlContents withData:(NSData *)data;
 - (void) updateURLContents:(TKGURLContents *)urlContents withLocalStorageURL:(NSURL *)localStorageURL;
 - (NSArray *) urlContentsObjects;
+- (NSURL *)localPathURLForEndPointURL:(NSURL *)endPointURL;
 
 @end

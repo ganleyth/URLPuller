@@ -44,6 +44,23 @@
     [urlContents setLocalStorageURL:localStorageURL];
 }
 
+- (NSURL *)localPathURLForEndPointURL:(NSURL *)endPointURL
+{
+    return [[self localPathURLDictionary] objectForKey:endPointURL.absoluteString];
+}
+
+- (NSDictionary *)localPathURLDictionary
+{
+    NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
+    
+    for (TKGURLContents *urlContents in self.internalURLContentsObjects)
+    {
+        [dictionary setObject:urlContents.localStorageURL forKey:urlContents.endPointURL.absoluteString];
+    }
+    
+    return dictionary;
+}
+
 - (NSArray *) urlContentsObjects
 {
     return self.internalURLContentsObjects;
