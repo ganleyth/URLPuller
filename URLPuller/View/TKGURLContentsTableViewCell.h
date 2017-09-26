@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@class TKGURLContents;
 
 @interface TKGURLContentsTableViewCell : UITableViewCell
 

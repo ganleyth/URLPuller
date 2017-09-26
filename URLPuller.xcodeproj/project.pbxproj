@@ -23,7 +23,6 @@
 		18CA6F4D1F796DEC005123EA /* TKGActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F4C1F796DEC005123EA /* TKGActivityIndicator.m */; };
 		18CA6F511F796F6D005123EA /* TKGURLContentsListDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F501F796F6D005123EA /* TKGURLContentsListDataProvider.m */; };
 		18E52BF31F7AA6F100461F3E /* TKGURLContentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E52BF21F7AA6F100461F3E /* TKGURLContentsTableViewCell.m */; };
-		18EFB49C1F79C6E40003AB19 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18CA6F2A1F796375005123EA /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -244,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EFB49C1F79C6E40003AB19 /* Info.plist in Resources */,
 				18CA6F291F796375005123EA /* LaunchScreen.storyboard in Resources */,
 				18CA6F261F796375005123EA /* Assets.xcassets in Resources */,
 				18CA6F241F796375005123EA /* Main.storyboard in Resources */,

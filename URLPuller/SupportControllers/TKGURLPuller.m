@@ -60,7 +60,7 @@
 
 - (void) waitUntilAllDownloadsFinish
 {
-    dispatch_group_wait(self.dispatchGroup, 5.0);
+    dispatch_group_wait(self.dispatchGroup, DISPATCH_TIME_FOREVER);
 }
 
 - (NSString *) downloadedPathForURL:(NSURL *)url

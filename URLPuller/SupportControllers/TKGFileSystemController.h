@@ -12,5 +12,6 @@
 
 + (NSURL *) urlAfterSavingData:(NSData *)data forEndPointURL:(NSURL *)endPointURL;
 + (NSString *) sha1RepresentationOfURL:(NSURL *)url;
++ (NSInteger) lengthForDataAtLocalStorageURL:(NSURL *)localStorageURL;
 
 @end

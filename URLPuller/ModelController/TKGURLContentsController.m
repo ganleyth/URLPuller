@@ -27,6 +27,18 @@
     return sharedInstance;
 }
 
+- (instancetype) init
+{
+    self = [super init];
+    
+    if (self)
+    {
+        _internalURLContentsObjects = [[NSMutableArray alloc] init];
+    }
+    
+    return self;
+}
+
 - (TKGURLContents *) addURLContentsObjectWithEndPointURL:(NSURL *)endPointURL
 {
     TKGURLContents *urlContents = [[TKGURLContents alloc] initWithEndPointURL:endPointURL];

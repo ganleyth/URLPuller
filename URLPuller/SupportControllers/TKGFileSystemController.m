@@ -20,6 +20,8 @@
     
     NSString *completeLocalPath = [path stringByAppendingPathComponent:pathComponentPlusExtension];
     
+    [data writeToFile:completeLocalPath atomically:YES];
+    
     return [NSURL fileURLWithPath:completeLocalPath];
 }
 
@@ -39,6 +41,13 @@
     }
     
     return output;
+}
+
++ (NSInteger) lengthForDataAtLocalStorageURL:(NSURL *)localStorageURL
+{
+    NSData *data = [[NSData alloc] initWithContentsOfURL:localStorageURL];
+    NSUInteger dataLength = data.length;
+    return dataLength;
 }
 
 @end
