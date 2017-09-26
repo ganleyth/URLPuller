@@ -22,6 +22,7 @@
 		18CA6F491F796CEC005123EA /* TKGURLPuller.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F481F796CEC005123EA /* TKGURLPuller.m */; };
 		18CA6F4D1F796DEC005123EA /* TKGActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F4C1F796DEC005123EA /* TKGActivityIndicator.m */; };
 		18CA6F511F796F6D005123EA /* TKGURLContentsListDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6F501F796F6D005123EA /* TKGURLContentsListDataProvider.m */; };
+		18E52BF31F7AA6F100461F3E /* TKGURLContentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E52BF21F7AA6F100461F3E /* TKGURLContentsTableViewCell.m */; };
 		18EFB49C1F79C6E40003AB19 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18CA6F2A1F796375005123EA /* Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		18CA6F4C1F796DEC005123EA /* TKGActivityIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGActivityIndicator.m; sourceTree = "<group>"; };
 		18CA6F4F1F796F6D005123EA /* TKGURLContentsListDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGURLContentsListDataProvider.h; sourceTree = "<group>"; };
 		18CA6F501F796F6D005123EA /* TKGURLContentsListDataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGURLContentsListDataProvider.m; sourceTree = "<group>"; };
+		18E52BF11F7AA6F100461F3E /* TKGURLContentsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGURLContentsTableViewCell.h; sourceTree = "<group>"; };
+		18E52BF21F7AA6F100461F3E /* TKGURLContentsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGURLContentsTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,8 @@
 			children = (
 				18CA6F4B1F796DEC005123EA /* TKGActivityIndicator.h */,
 				18CA6F4C1F796DEC005123EA /* TKGActivityIndicator.m */,
+				18E52BF11F7AA6F100461F3E /* TKGURLContentsTableViewCell.h */,
+				18E52BF21F7AA6F100461F3E /* TKGURLContentsTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			files = (
 				18CA6F2C1F796375005123EA /* main.m in Sources */,
 				18CA6F511F796F6D005123EA /* TKGURLContentsListDataProvider.m in Sources */,
+				18E52BF31F7AA6F100461F3E /* TKGURLContentsTableViewCell.m in Sources */,
 				1894DA701F7982A500E2304E /* TKGNetworkClient.m in Sources */,
 				1894DA731F79888800E2304E /* TKGFileSystemController.m in Sources */,
 				18CA6F4D1F796DEC005123EA /* TKGActivityIndicator.m in Sources */,

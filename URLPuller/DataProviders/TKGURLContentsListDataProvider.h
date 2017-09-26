@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+@class TKGURLContents;
 
-@interface TKGURLContentsListDataProvider : NSObject
+@interface TKGURLContentsListDataProvider : NSObject <UITableViewDelegate, UITableViewDataSource>
 
 @end
